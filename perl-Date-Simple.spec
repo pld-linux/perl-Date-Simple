@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Date
-%define	pnam	Simple
+%define		pdir	Date
+%define		pnam	Simple
 Summary:	Date::Simple - a simple date object
 Summary(pl):	Date::Simple - prosty obiekt daty
 Name:		perl-Date-Simple

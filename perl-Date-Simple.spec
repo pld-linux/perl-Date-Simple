@@ -9,7 +9,7 @@ Summary:	Date::Simple - a simple date object
 Summary(pl):	Date::Simple - prosty obiekt daty
 Name:		perl-Date-Simple
 Version:	3.01
-Release:	1
+Release:	2
 License:	GPL v2+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz

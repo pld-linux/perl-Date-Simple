@@ -8,12 +8,12 @@
 Summary:	Date::Simple - a simple date object
 Summary(pl):	Date::Simple - prosty obiekt daty
 Name:		perl-Date-Simple
-Version:	1.03
+Version:	2.04
 Release:	1
 License:	GPL v2+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	07cdc013b4f5b9c0c76757164404d0b6
+Source0:	http://www.cpan.org/modules/by-authors/id/JTOBEY/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	38dfba341d083c5059953eed6225c7cd
 BuildRequires:	perl-devel >= 5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -35,8 +35,9 @@ zwróci undef.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL \
-	INSTALLDIRS=vendor
+%{__perl} Makefile.PL noxs \
+	INSTALLDIRS=vendor \
+
 
 %{__make}
 
@@ -55,4 +56,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc README
 %{perl_vendorlib}/Date/Simple.pm
+%{perl_vendorlib}/Date/Simple
 %{_mandir}/man3/*

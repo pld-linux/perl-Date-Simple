@@ -36,11 +36,9 @@ zwróci undef.
 
 %build
 %{__perl} Makefile.PL noxs \
-	INSTALLDIRS=vendor \
-
+	INSTALLDIRS=vendor
 
 %{__make}
-
 %{?with_tests:%{__make} test}
 
 %install

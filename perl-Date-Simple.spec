@@ -6,7 +6,7 @@
 %define		pdir	Date
 %define		pnam	Simple
 Summary:	Date::Simple - a simple date object
-Summary(pl):	Date::Simple - prosty obiekt daty
+Summary(pl.UTF-8):   Date::Simple - prosty obiekt daty
 Name:		perl-Date-Simple
 Version:	3.02
 Release:	1
@@ -25,11 +25,11 @@ dates within the range of Unix time. It will only allow the creation
 of objects for valid dates. Attempting to create an invalid date will
 return undef.
 
-%description -l pl
-Ten modu³ mo¿e byæ u¿ywany do tworzenia prostych obiektów daty.
-Obs³uguje tylko daty z uniksowego przedzia³u czasu. Pozwala stworzyæ
-obiekty tylko dla poprawnych dat - przy próbie stworzenia b³êdnej daty
-zwróci undef.
+%description -l pl.UTF-8
+Ten moduÅ‚ moÅ¼e byÄ‡ uÅ¼ywany do tworzenia prostych obiektÃ³w daty.
+ObsÅ‚uguje tylko daty z uniksowego przedziaÅ‚u czasu. Pozwala stworzyÄ‡
+obiekty tylko dla poprawnych dat - przy prÃ³bie stworzenia bÅ‚Ä™dnej daty
+zwrÃ³ci undef.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}

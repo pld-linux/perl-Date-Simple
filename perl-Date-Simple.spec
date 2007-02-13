@@ -6,7 +6,7 @@
 %define		pdir	Date
 %define		pnam	Simple
 Summary:	Date::Simple - a simple date object
-Summary(pl.UTF-8):   Date::Simple - prosty obiekt daty
+Summary(pl.UTF-8):	Date::Simple - prosty obiekt daty
 Name:		perl-Date-Simple
 Version:	3.02
 Release:	1

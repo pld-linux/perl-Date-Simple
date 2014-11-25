@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Date
 %define		pnam	Simple
+%include	/usr/lib/rpm/macros.perl
 Summary:	Date::Simple - a simple date object
 Summary(pl.UTF-8):	Date::Simple - prosty obiekt daty
 Name:		perl-Date-Simple
@@ -14,6 +14,7 @@ License:	GPL v2+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	436049dc2c7dfd8423d8bcc807248b31
+URL:		http://search.cpan.org/dist/Date-Simple/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch

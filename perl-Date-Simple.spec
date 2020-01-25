@@ -4,7 +4,6 @@
 
 %define		pdir	Date
 %define		pnam	Simple
-%include	/usr/lib/rpm/macros.perl
 Summary:	Date::Simple - a simple date object
 Summary(pl.UTF-8):	Date::Simple - prosty obiekt daty
 Name:		perl-Date-Simple
